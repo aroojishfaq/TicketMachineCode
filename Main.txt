@@ -1,0 +1,11 @@
+public class Main{
+ public static void main(String args[]){
+  //Starting creating objects
+   TicketMachine M1=new TicketMachine();
+   M1.setPrice(12);
+   M1.getPrice();
+   M1.insertmoney(12);
+   M1.getBalance();
+   M1.printTicket();  
+}
+}
